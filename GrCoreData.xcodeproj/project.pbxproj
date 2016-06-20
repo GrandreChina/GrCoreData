@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		B109079F1D0E5B570017EECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B109079E1D0E5B570017EECF /* AppDelegate.swift */; };
 		B10907A11D0E5B570017EECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907A01D0E5B570017EECF /* ViewController.swift */; };
-		B10907A41D0E5B570017EECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10907A21D0E5B570017EECF /* Main.storyboard */; };
 		B10907A71D0E5B570017EECF /* GrCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B10907A51D0E5B570017EECF /* GrCoreData.xcdatamodeld */; };
 		B10907A91D0E5B570017EECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10907A81D0E5B570017EECF /* Assets.xcassets */; };
 		B10907AC1D0E5B570017EECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10907AA1D0E5B570017EECF /* LaunchScreen.storyboard */; };
 		B10907B71D0E5B570017EECF /* GrCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907B61D0E5B570017EECF /* GrCoreDataTests.swift */; };
 		B10907C21D0E5B570017EECF /* GrCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907C11D0E5B570017EECF /* GrCoreDataUITests.swift */; };
+		B10907D11D0E629D0017EECF /* BOOK+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907CF1D0E629D0017EECF /* BOOK+CoreDataProperties.swift */; };
+		B10907D21D0E629D0017EECF /* BOOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907D01D0E629D0017EECF /* BOOK.swift */; };
+		B10907D41D0E9C670017EECF /* 总结 in Resources */ = {isa = PBXBuildFile; fileRef = B10907D31D0E9C670017EECF /* 总结 */; };
+		B10907D61D0E9DA70017EECF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10907D51D0E9DA70017EECF /* TableViewController.swift */; };
+		B13C94441D0EB343008BD8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13C94431D0EB343008BD8A9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		B109079B1D0E5B570017EECF /* GrCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B109079E1D0E5B570017EECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10907A01D0E5B570017EECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B10907A31D0E5B570017EECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B10907A61D0E5B570017EECF /* GrCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrCoreData.xcdatamodel; sourceTree = "<group>"; };
 		B10907A81D0E5B570017EECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10907AB1D0E5B570017EECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		B10907BD1D0E5B570017EECF /* GrCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10907C11D0E5B570017EECF /* GrCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrCoreDataUITests.swift; sourceTree = "<group>"; };
 		B10907C31D0E5B570017EECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10907CF1D0E629D0017EECF /* BOOK+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BOOK+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B10907D01D0E629D0017EECF /* BOOK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOOK.swift; sourceTree = "<group>"; };
+		B10907D31D0E9C670017EECF /* 总结 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "总结"; sourceTree = "<group>"; };
+		B10907D51D0E9DA70017EECF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B13C94431D0EB343008BD8A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		B10907921D0E5B570017EECF = {
 			isa = PBXGroup;
 			children = (
+				B10907CF1D0E629D0017EECF /* BOOK+CoreDataProperties.swift */,
+				B10907D01D0E629D0017EECF /* BOOK.swift */,
 				B109079D1D0E5B570017EECF /* GrCoreData */,
 				B10907B51D0E5B570017EECF /* GrCoreDataTests */,
 				B10907C01D0E5B570017EECF /* GrCoreDataUITests */,
@@ -101,11 +111,13 @@
 			children = (
 				B109079E1D0E5B570017EECF /* AppDelegate.swift */,
 				B10907A01D0E5B570017EECF /* ViewController.swift */,
-				B10907A21D0E5B570017EECF /* Main.storyboard */,
 				B10907A81D0E5B570017EECF /* Assets.xcassets */,
 				B10907AA1D0E5B570017EECF /* LaunchScreen.storyboard */,
 				B10907AD1D0E5B570017EECF /* Info.plist */,
 				B10907A51D0E5B570017EECF /* GrCoreData.xcdatamodeld */,
+				B10907D31D0E9C670017EECF /* 总结 */,
+				B10907D51D0E9DA70017EECF /* TableViewController.swift */,
+				B13C94431D0EB343008BD8A9 /* Main.storyboard */,
 			);
 			path = GrCoreData;
 			sourceTree = "<group>";
@@ -235,9 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10907D41D0E9C670017EECF /* 总结 in Resources */,
 				B10907AC1D0E5B570017EECF /* LaunchScreen.storyboard in Resources */,
 				B10907A91D0E5B570017EECF /* Assets.xcassets in Resources */,
-				B10907A41D0E5B570017EECF /* Main.storyboard in Resources */,
+				B13C94441D0EB343008BD8A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10907A71D0E5B570017EECF /* GrCoreData.xcdatamodeld in Sources */,
+				B10907D61D0E9DA70017EECF /* TableViewController.swift in Sources */,
 				B10907A11D0E5B570017EECF /* ViewController.swift in Sources */,
+				B10907D11D0E629D0017EECF /* BOOK+CoreDataProperties.swift in Sources */,
 				B109079F1D0E5B570017EECF /* AppDelegate.swift in Sources */,
+				B10907D21D0E629D0017EECF /* BOOK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B10907A21D0E5B570017EECF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10907A31D0E5B570017EECF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B10907AA1D0E5B570017EECF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -489,6 +497,7 @@
 				B10907C81D0E5B570017EECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B10907C91D0E5B570017EECF /* Build configuration list for PBXNativeTarget "GrCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				B10907CB1D0E5B570017EECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B10907CC1D0E5B570017EECF /* Build configuration list for PBXNativeTarget "GrCoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +515,7 @@
 				B10907CE1D0E5B570017EECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
